@@ -1,10 +1,4 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-        
-}
-
+  
 a {
     text-decoration: none;
     color: #525050;
@@ -14,11 +8,13 @@ body {
     font-size: 12px;
     color: #525050;
     font-family: Arial;
+    box-sizing: border-box;
 }
 
 .nav-bar{
     display: block;
     width: 100%;
+    overflow: hidden;
 }
 
 .nav-bar a{
@@ -93,53 +89,65 @@ body {
 }
 
 
-.center {
-    padding: 0;
-    margin: 0;
+.logo {
     display: block;
-    height:300px;
-    position: relative;
-    top: 180px;
-    width: 100%;
-    text-align: center;
+    margin: 135px auto 30px auto;
 }
 
-.logo {
-    text-align: center;
+.languages a {
+    color: #0000ff;
 }
 
 .boxes {
     display: block;
     width: 100%;
     text-align: center;
-    height: 90px;
+    height: 30px;
     padding: 30px;
 }
 
-.boxes button {
-    color: #525050;
-    background-color: #c5c5c5;
-    height: 30px;
-    font-size: 18px;
+.searchbar button {
+    display: inline-block;
+    color: #5a5959;
+    background-color: #f0f0f0;
+    height: 35px;
+    width: 140px;
+    font-size: 14px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-decoration: none;
+    border: none;
+    margin: 30px 0 25px 15px;
 }
 
-.boxes input {
-    color: #525050;
-    background-color: #c5c5c5;
-    height: 30px;
-    font-size: 18px;
+.submit {
+    display: inline-block;
+    color: #5a5959;
+    background-color: #f0f0f0;
+    height: 35px;
+    width: 120px;
+    font-size: 14px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-decoration: none;
+    border: none;
+    margin: 30px 15px 25px 0;
 }
 
 .searchbar {
-    text-align: center;
+   text-align: center;
 }
 
 .input {
     display: inline-block;
     border-radius: 25px;
     width: 550px;
-    height: 40px;
-    
+    height: 42px;
+    font-size: 16px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-decoration: none;
+    border: 1px #dbdbdb solid
 }
 
 
@@ -149,6 +157,7 @@ body {
 
 .languages {
     text-align: center;
+    
 }
 
 .footer{
