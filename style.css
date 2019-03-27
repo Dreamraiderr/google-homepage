@@ -138,6 +138,12 @@ body {
    text-align: center;
 }
 
+.voice {
+    position: relative;
+    right: 40px;
+    top: 5px;
+}
+
 .input {
     display: inline-block;
     border-radius: 25px;
